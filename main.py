@@ -20,11 +20,7 @@ cogs: list = [
   "Functions.Mod.reactionroles",
   "Functions.Mod.release",
   "Functions.Mod.clear",
-  "Functions.Mod.clearall",
-
-  # "Functions.Giveaway.giveaway",
-
-  # "Functions.Color.color",
+  "Functions.Mod.clearall"
 ]
 
 client = Client(token=os.getenv('TOKEN'))
