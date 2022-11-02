@@ -23,7 +23,10 @@ cogs: list = [
   "Functions.Mod.clearall"
 ]
 
-client = Client(token=os.getenv('TOKEN'))
+try:
+  client = Client(token=os.getenv('TOKEN'))
+except:
+  os.system('kill 1')
 
 @client.event
 async def on_ready():

@@ -20,6 +20,8 @@ class Ext(Extension):
                 Option(name="id", description="The ID of the bug report", type=OptionType.STRING, required=True)]),
             Option(name='resolved', description="Resolve a bug", type=OptionType.SUB_COMMAND, options=[
                 Option(name="id", description="The ID of the bug report", type=OptionType.STRING, required=True)]),
+            Option(name='wontfix', description="Don't fix a bug", type=OptionType.SUB_COMMAND, options=[
+                Option(name="id", description="The ID of the bug report", type=OptionType.STRING, required=True)]),
         ]
     )
 

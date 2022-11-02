@@ -37,7 +37,7 @@ class Ext(Extension):
                 EmbedField(name='Bug:', value=title, inline=False),
                 EmbedField(name='Version:', value=version, inline=False),
                 EmbedField(name='Platform:', value=platform, inline=False),
-                EmbedField(name='Issuer:', value=ctx.author.mention, inline=False),
+                EmbedField(name='Issuee:', value=ctx.author.mention, inline=False),
                 EmbedField(name='Issued On:', value=report_date, inline=False),
                 EmbedField(name='Description:', value=description, inline=False)
             ]

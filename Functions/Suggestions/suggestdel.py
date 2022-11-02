@@ -20,7 +20,7 @@ class Ext(Extension):
         found = False
         with open(SUGGESTIONS_DIR, "r") as file:
             for line in file:
-                if ' ' + id + ' ' in line:
+                if ' ' + id in line:
                     msg_, id = line.split(' ')
                     msg_id = msg_
                     found = True

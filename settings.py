@@ -1,4 +1,4 @@
-BotStatus = "Check out Forgescape at https://youtube.com/channel/UCh6qnjRmjFu-V36GZOOgTNQ"
+BotStatus = "Check out Forgescape at https://youtube.com/@autumnfire_dev"
 
 REPORT_CHANNEL_ID = 983631553462677534
 ADMIN_CHANNEL_ID = 877158810203086888
@@ -26,7 +26,8 @@ BUG_STATUSES = {
   "postponed" : COLOR_POSTPONED,
   "open" : COLOR_OPEN,
   "inprogress" : COLOR_IN_PROGRESS,
-  "resolved" : COLOR_RESOLVED
+  "resolved" : COLOR_RESOLVED,
+  "wontfix" : COLOR_CLOSED,
 }
 
 SUGGEST_STATUSES = {
